@@ -1,0 +1,89 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
+</head>
+<body style="background-color:#EDF0F5">
+    <table width="100%" cellspacing="0px" cellpadding="0px" style="position:absolute;top:0;left:0;right:0;height:60px;">
+        <tr bgcolor="#3B5998">
+            <td>
+                <img src="{% static 'images/fblogo.png' %}" width="160px" alt="" style="margin-left:30px;">
+            </td>
+            <td width="44%">
+                <input type="text" name="text">
+                <input type="text" name="text">
+                <input type="button" name="login" value="LOGIN">
+            </td>
+        </tr>
+    </table>
+    
+    
+    
+
+    <table cellspacing="0" align="left" style="margin-top:60px;margin-left:150px;">
+        <tr style="padding-right:60px;">
+            <th colspan="2" align="left">
+                <font face="Verdana, sans-serif"><h2><b>Connect with friends and the world <br>around you on Facebook.</b></h2></font>
+            </th>
+        </tr>
+        <tr>
+            <td style="padding-top:15px;"><img src="{% static 'images/see1.png' %}" width="50px"></td>
+            <td style="padding-left:16px;"><font face="Verdana, sans-serif">See photos and updates from friends in News Feed.</font></td>
+        </tr>
+        <tr>
+            <td><img src="{% static 'images/share.png' %}" width="50px"></td>
+            <td style="padding-left:16px;"><font face="Verdana, sans-serif">Share whats new in your life on your Timeline.</font></td>
+        </tr>
+        <tr>
+            <td><img src="{% static 'images/find.png' %}" width="50px"></td>
+            <td style="padding-left:16px;"><font face="Verdana, sans-serif">Find more of what you're looking for with Graph Search.</font></td>
+        </tr>
+        
+        
+    </table>
+
+    <table cellspacing="0" align="right" style="margin-top:40px;margin-right:120px;">
+        <tr>
+            <th><font face="Times, Times New Roman, serif"><h2 style="padding-left:30px;"><b>Sign Up</b></h2></font></th>
+        </tr>
+        <tr>
+            <td><input type="text" name="fname" placeholder="First Name" size="15px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="lname" placeholder="Last Name" size="30px"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="padding-top:15px;">
+                <input type="text" name="mobile" placeholder="Mobile Number" size="50" line-height="30px">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-top:15px;">
+                <input type="text" name="email" placeholder="Email" size="50"> 
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-top:15px;">
+                <input type="password" name="password" placeholder="Password" size="50">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-top:5px;">
+                <font face="Times, Times New Roman, serif" size="0.5">By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications<br> from us and can opt out at any time.</font> 
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-top:5px;">
+                <img src="{% static 'images/signup.png' %}" alt="" width="100px">
+            </td>
+        </tr>
+
+
+    </table>
+
+    
+</body>
+</html>
